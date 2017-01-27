@@ -16,4 +16,4 @@ ESC: Leave level, editor or game
 
 ## Compilation under Windows
 
-Open Inspiro.sln with Microsft Visual Studio
+Open *Inspiro.sln* with Microsoft Visual Studio.
