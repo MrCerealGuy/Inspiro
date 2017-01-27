@@ -1,0 +1,21 @@
+Objekt                           ID    IDNr    Zusätzliche Informationen
+-----------------------------------------------------------------------------
+Mauer                         -> WL ->  1;
+Geld                          -> GO ->  2;
+Schlüssel                     -> KY ->  3;
+Grabstein                     -> RP ->  4;
+Tür                           -> DR ->  5;
+Spieler von vorne             -> PV ->  6;
+Spieler von hinten            -> PH ->  7;
+Spieler von der rechten Seite -> PR ->  8;
+Spieler von der linken Seite  -> PL ->  9;
+Löschfeld                     -> CR -> 10;
+Herz                          -> HZ -> 11;
+Stacheln                      -> ST -> 12;
+Stacheln aus dem Boden        -> SB -> 13; 
+verschiebare Mauer            -> WV -> 14;
+Skelett v.v.                  -> SV -> 15;
+Skelett v.h.                  -> SH -> 16;
+Skelett v.l.                  -> SL -> 17;
+Skelett v.r.                  -> SR -> 18;
+
