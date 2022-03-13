@@ -1,6 +1,13 @@
 # Inspiro
 An unfinished 2D game from 1999. Published in 2017 ;-).
 
+<img src="res/screenshot_menu.png" alt="Inspiro">
+<img src="res/screenshot_editor.png" alt="Inspiro">
+<img src="res/screenshot_level1.png" alt="Inspiro">
+<img src="res/screenshot_level2.png" alt="Inspiro">
+<img src="res/screenshot_level3.png" alt="Inspiro">
+<img src="res/screenshot_level4.png" alt="Inspiro">
+
 ## Controls
 
 ```
@@ -16,4 +23,4 @@ ESC: Leave level, editor or game
 
 ## Compilation under Windows
 
-Open *Inspiro.sln* with Microsoft Visual Studio.
+Open *Inspiro.sln* with Microsoft Visual Studio 2019.

@@ -1,13 +1,9 @@
-//Microsoft Developer Studio generated resource script.
-//
-#include "resource.h"
-
 #define APSTUDIO_READONLY_SYMBOLS
 /////////////////////////////////////////////////////////////////////////////
 //
 // Generated from the TEXTINCLUDE 2 resource.
 //
-#include "afxres.h"
+#include "winres.h"
 
 /////////////////////////////////////////////////////////////////////////////
 #undef APSTUDIO_READONLY_SYMBOLS
@@ -16,10 +12,8 @@
 // Deutsch (Deutschland) resources
 
 #if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_DEU)
-#ifdef _WIN32
 LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
 #pragma code_page(1252)
-#endif //_WIN32
 
 #ifdef APSTUDIO_INVOKED
 /////////////////////////////////////////////////////////////////////////////
@@ -27,18 +21,18 @@ LANGUAGE LANG_GERMAN, SUBLANG_GERMAN
 // TEXTINCLUDE
 //
 
-1 TEXTINCLUDE DISCARDABLE 
+1 TEXTINCLUDE 
 BEGIN
     "resource.h\0"
 END
 
-2 TEXTINCLUDE DISCARDABLE 
+2 TEXTINCLUDE 
 BEGIN
-    "#include ""afxres.h""\r\n"
+    "#include ""winres.h""\r\n"
     "\0"
 END
 
-3 TEXTINCLUDE DISCARDABLE 
+3 TEXTINCLUDE 
 BEGIN
     "\r\n"
     "\0"
@@ -49,16 +43,6 @@ END
 
 /////////////////////////////////////////////////////////////////////////////
 //
-// Icon
-//
-
-// Icon with lowest ID value placed first to ensure application icon
-// remains consistent on all systems.
-IDI_ICON1               ICON    DISCARDABLE     "res\icon.ico"
-
-#ifndef _MAC
-/////////////////////////////////////////////////////////////////////////////
-//
 // Version
 //
 
@@ -67,9 +51,9 @@ VS_VERSION_INFO VERSIONINFO
  PRODUCTVERSION 1,0,0,1
  FILEFLAGSMASK 0x3fL
 #ifdef _DEBUG
- FILEFLAGS 0x29L
+ FILEFLAGS 0x1L
 #else
- FILEFLAGS 0x28L
+ FILEFLAGS 0x0L
 #endif
  FILEOS 0x40004L
  FILETYPE 0x1L
@@ -79,18 +63,14 @@ BEGIN
     BEGIN
         BLOCK "040704b0"
         BEGIN
-            VALUE "Comments", "Programming, Graphics and Idea: Andreas Zahnleiter\0"
-            VALUE "CompanyName", "GreenByte Studio\0"
-            VALUE "FileDescription", "Inspiro\0"
-            VALUE "FileVersion", "1, 0, 0, 1\0"
-            VALUE "InternalName", "Inspiro\0"
-            VALUE "LegalCopyright", "Copyright © 1999\0"
-            VALUE "LegalTrademarks", "-\0"
-            VALUE "OriginalFilename", "Inspiro.exe\0"
-            VALUE "PrivateBuild", "-\0"
-            VALUE "ProductName", "- Inspiro\0"
-            VALUE "ProductVersion", "1, 0, 0, 1\0"
-            VALUE "SpecialBuild", "-\0"
+            VALUE "CompanyName", "GreenByte Studio"
+            VALUE "FileDescription", "Inspiro"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "Inspiro.exe"
+            VALUE "LegalCopyright", "Copyright © 1999"
+            VALUE "OriginalFilename", "Inspiro.exe"
+            VALUE "ProductName", "Inspiro"
+            VALUE "ProductVersion", "1.0.0.1"
         END
     END
     BLOCK "VarFileInfo"
@@ -99,7 +79,15 @@ BEGIN
     END
 END
 
-#endif    // !_MAC
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDI_ICON1               ICON                    "res\\icon.ico"
 
 #endif    // Deutsch (Deutschland) resources
 /////////////////////////////////////////////////////////////////////////////
